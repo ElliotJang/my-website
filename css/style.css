@@ -161,7 +161,7 @@ footer button:hover {
   header {
     padding: 15px 0;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   header .container {
