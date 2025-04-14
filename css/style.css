@@ -143,20 +143,28 @@ a:hover {
 
 footer {
   background-color: #5fa8d3;
-  color: white;
-  padding: 15px 0;
+  padding: 40px 0;
   text-align: center;
-  border-radius: 20px 20px 0 0;
-  margin-top: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-footer .container {
-  max-width: 800px;
-  margin: 0 auto;
+footer button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 }
 
-footer p {
-  font-size: 0.9rem;
+footer button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
