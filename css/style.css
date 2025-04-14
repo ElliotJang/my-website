@@ -166,8 +166,8 @@ footer button:hover {
 
   header .container {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    width: 100%;
   }
 
   header h1 {
@@ -182,8 +182,9 @@ footer button:hover {
 
   header nav ul {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 0;
+    width: 100%;
   }
 
   header nav ul li {
@@ -192,6 +193,15 @@ footer button:hover {
 
   header nav ul li a {
     font-size: 1.1rem;
+  }
+
+  header nav ul li:nth-child(1) {
+    text-align: left;
+  }
+
+  header nav ul li:nth-child(2),
+  header nav ul li:nth-child(3) {
+    text-align: left;
   }
 
   .section h2 {
