@@ -215,4 +215,8 @@ footer button:hover {
   .section h2 {
     font-size: 1.6rem;
   }
+
+  hr {
+    width: 80%;
+  }
 }
